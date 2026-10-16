@@ -1,0 +1,12 @@
+name = "gazetouch-sync"
+main = "worker.js"
+compatibility_date = "2026-10-01"
+
+# After creating D1, replace REPLACE_WITH_D1_DATABASE_ID with the actual ID.
+[[d1_databases]]
+binding = "DB"
+database_name = "gazetouch-sync"
+database_id = "REPLACE_WITH_D1_DATABASE_ID"
+
+[vars]
+ALLOWED_ORIGIN = "https://haibao753.github.io"
